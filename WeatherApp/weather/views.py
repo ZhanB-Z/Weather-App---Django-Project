@@ -8,7 +8,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    appid = '2972edf4bc2a4121567fb4a5e4e3188a'
+    appid = '#' #HERE PROVIDE API_CODE
     url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=' + appid
 
     all_cities = []
